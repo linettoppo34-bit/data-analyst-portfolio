@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Linet Toppo – Data & Business Analyst</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f2f6f8;--surface:#ffffff;--ink:#14202b;--muted:#51606d;--line:#d3dde4;--accent:#0b7a63;--accent-ink:#ffffff;--todo:#fff4cc;--todo-ink:#6b4e00;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1519;--surface:#16212a;--ink:#e6edf1;--muted:#9fb0bc;--line:#26343f;--accent:#3cc9a5;--accent-ink:#06231c;--todo:#3a3010;--todo-ink:#f2d98a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e1519;--surface:#16212a;--ink:#e6edf1;--muted:#9fb0bc;--line:#26343f;--accent:#3cc9a5;--accent-ink:#06231c;--todo:#3a3010;--todo-ink:#f2d98a;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Source Serif 4',Georgia,serif;font-size:18px;line-height:1.65}
+.wrap{max-width:980px;margin:0 auto;padding:0 22px}
+h1,h2,h3{font-family:'Bricolage Grotesque','Segoe UI',Arial,sans-serif;line-height:1.1;margin:0}
+a{color:var(--accent)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:36px;align-items:center;padding:64px 0 48px}
+.hero h1{font-size:clamp(46px,8vw,84px);font-weight:800;letter-spacing:-.03em}
+.hero p.lead{font-size:clamp(20px,2.6vw,26px);margin:18px 0 26px;max-width:30ch}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:700;font-size:16px;padding:12px 20px;border-radius:8px;text-decoration:none;border:2px solid var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.chart{width:100%;height:auto}
+.chart .bar{fill:var(--line)}.chart .hi{fill:var(--accent)}.chart line{stroke:var(--ink);stroke-width:2}
+section{padding:40px 0;border-top:1px solid var(--line)}
+h2{font-size:34px;font-weight:700;margin-bottom:18px}
+.about{max-width:62ch}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:22px}
+.fact{border-left:4px solid var(--accent);padding:4px 0 4px 14px}
+.fact b{font-family:'Bricolage Grotesque',Arial,sans-serif;display:block;font-size:19px}
+.fact span{color:var(--muted);font-size:16px}
+.skills{display:flex;flex-wrap:wrap;gap:10px;padding:0;margin:0;list-style:none}
+.skills li{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:7px 14px;font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:500;font-size:16px}
+.proj{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:24px;margin-bottom:20px}
+.proj h3{font-size:25px;margin-bottom:6px}
+.meta{color:var(--muted);font-size:16px;margin:0 0 12px}
+.q{font-size:19px;margin:0 0 14px}
+details{border-top:1px solid var(--line);padding-top:12px}
+summary{cursor:pointer;font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:700}
+details ul{margin:10px 0 0;padding-left:22px}
+.todo{display:block;margin-top:14px;padding:10px 14px;border-radius:8px;background:var(--todo);color:var(--todo-ink);font-family:'Bricolage Grotesque',Arial,sans-serif;font-size:15px}
+.links{display:block;margin-top:12px;font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:700;font-size:16px}
+.finding{display:block;margin-top:14px;padding:12px 14px;border-left:4px solid var(--accent);background:var(--bg);font-size:17px}
+footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);font-size:16px}
+@media (max-width:760px){.hero{grid-template-columns:1fr;padding-top:36px}.chart{max-width:340px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <div>
+    <h1>Linet Toppo</h1>
+    <p class="lead">I turn raw data into clear answers for business decisions.</p>
+    <div class="btns">
+      <a class="btn primary" href="mailto:linettoppo34@gmail.com">Email me</a>
+      <a class="btn" href="https://www.linkedin.com/in/linet-toppo-27b231159/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/linettoppo34-bit/data-analyst-portfolio" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+  <svg class="chart" viewBox="0 0 300 220" role="img" aria-label="Bar chart with the last bar highlighted, rising from left to right">
+    <line x1="10" y1="200" x2="290" y2="200"/>
+    <rect class="bar" x="24" y="140" width="34" height="60" rx="3"/>
+    <rect class="bar" x="70" y="115" width="34" height="85" rx="3"/>
+    <rect class="bar" x="116" y="130" width="34" height="70" rx="3"/>
+    <rect class="bar" x="162" y="90" width="34" height="110" rx="3"/>
+    <rect class="bar" x="208" y="60" width="34" height="140" rx="3"/>
+    <rect class="hi" x="254" y="24" width="34" height="176" rx="3"/>
+  </svg>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <p class="about">I am a fresher analyst who enjoys cleaning messy data, finding the pattern in it, and explaining it in plain language. I work with SQL and Python, and I build dashboards that a manager can read in a minute.</p>
+  <div class="facts">
+    <div class="fact"><b>B.A. Programme</b><span>University of Delhi, 2022–2025</span></div>
+    <div class="fact"><b>Data Analyst Certification</b><span>2026</span></div>
+    <div class="fact"><b>Based in Gurugram</b><span>Open to analyst roles across India</span></div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul class="skills">
+    <li>SQL</li><li>Python (pandas, matplotlib)</li><li>Data cleaning</li><li>Data visualization</li><li>Dashboards and reporting</li><li>Exploratory analysis</li><li>Data storytelling</li>
+  </ul>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <article class="proj">
+    <h3>Retail Sales and Profit Dashboard</h3>
+    <p class="meta">Python (pandas, matplotlib) · Sample Superstore dataset</p>
+    <p class="q">Which categories, regions, and discount levels make money, and which lose it?</p>
+    <details>
+      <summary>How I approach it</summary>
+      <ul>
+        <li>Check for missing values and remove 17 duplicate rows.</li>
+        <li>Calculate sales, profit, and margin, then break them down by category, region, state, and discount level.</li>
+        <li>Chart the results in a one-page dashboard.</li>
+        <li>Write three recommendations based on what the numbers show.</li>
+      </ul>
+    </details>
+    <span class="finding"><b>Finding:</b> order lines discounted by more than 20% lost $135K in total, while lines at 20% or less earned $422K. Tables, Bookcases, and Supplies lose money overall.</span>
+    <span class="links"><a href="https://github.com/linettoppo34-bit/data-analyst-portfolio/blob/main/superstore/Superstore_Dashboard.pdf" target="_blank" rel="noopener">Dashboard PDF</a> · <a href="https://github.com/linettoppo34-bit/data-analyst-portfolio/tree/main/superstore" target="_blank" rel="noopener">Code and README</a></span>
+  </article>
+
+  <article class="proj">
+    <h3>E-commerce Delivery and Customer Reviews</h3>
+    <p class="meta">SQL (SQLite) and Python · Olist Brazilian E-commerce dataset</p>
+    <p class="q">Do late deliveries lower review scores, and by how much?</p>
+    <details>
+      <summary>How I approach it</summary>
+      <ul>
+        <li>Join the orders, reviews, and customers tables with SQL.</li>
+        <li>Compare promised and actual delivery dates to flag late orders.</li>
+        <li>Group review scores by delay length and by product category.</li>
+        <li>Summarize the findings in a one-page report.</li>
+      </ul>
+    </details>
+    <span class="finding"><b>Finding:</b> late deliveries cut the average review score from 4.29 to 2.57 out of 5. 54% of late orders got a 1 or 2 star review, against 9% of on-time orders.</span>
+    <span class="links"><a href="https://github.com/linettoppo34-bit/data-analyst-portfolio/blob/main/olist/Olist_Report.pdf" target="_blank" rel="noopener">Report PDF</a> · <a href="https://github.com/linettoppo34-bit/data-analyst-portfolio/blob/main/olist/olist_delivery_reviews.sql" target="_blank" rel="noopener">SQL file</a> · <a href="https://github.com/linettoppo34-bit/data-analyst-portfolio/tree/main/olist" target="_blank" rel="noopener">README</a></span>
+  </article>
+
+  <article class="proj">
+    <h3>Employee Attrition Analysis</h3>
+    <p class="meta">Python (pandas, matplotlib) · IBM HR Analytics sample dataset</p>
+    <p class="q">Which groups of employees are most likely to leave, and what do they have in common?</p>
+    <details>
+      <summary>How I approach it</summary>
+      <ul>
+        <li>Calculate the attrition rate by job role, overtime, age, tenure, and income band.</li>
+        <li>Compare pay, overtime, and job satisfaction between those who left and those who stayed.</li>
+        <li>Present the biggest risk groups in a one-page dashboard.</li>
+      </ul>
+    </details>
+    <span class="finding"><b>Finding:</b> employees working overtime left at 30.5%, against 10.4% for those who do not. Attrition was also highest in the first year (34.9%) and under age 25 (39.2%).</span>
+    <span class="links"><a href="https://github.com/linettoppo34-bit/data-analyst-portfolio/blob/main/attrition/Attrition_Dashboard.pdf" target="_blank" rel="noopener">Dashboard PDF</a> · <a href="https://github.com/linettoppo34-bit/data-analyst-portfolio/tree/main/attrition" target="_blank" rel="noopener">Code and README</a></span>
+  </article>
+</section>
+
+<footer>
+  <p>Let’s talk: <a href="mailto:linettoppo34@gmail.com">linettoppo34@gmail.com</a> · <a href="https://www.linkedin.com/in/linet-toppo-27b231159/" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/linettoppo34-bit/data-analyst-portfolio" target="_blank" rel="noopener">GitHub</a></p>
+</footer>
+</div>
+</body>
+</html>
